@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#555;
+    background-color: #ecf0fc;
+
+}
+.all{
+    width: 300px;
+    height: 500px;
+    background:#ecf0fc;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px #cbced1,
+    -10px -10px 15px white;
+}
+.Input{
+     width: 100%;
+     padding:  60px 5px 5px 5px;
+     margin-top: 120px;
+}
+.email{
+    margin: 10px;
+    text-align: center;
+}
+.password{
+    margin:10px ;
+    text-align: center;
+}
+.login{
+    display:block;
+    text-align: center;
+}
